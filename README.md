@@ -25,12 +25,12 @@ The analysis is performed using **Python (Pandas, Matplotlib)** and **SQL (Relat
 │   ├── processed          # Cleaned & transformed datasets
 │
 ├── sql
-│   ├── table_creation.sql     # SQL schema (normalized tables)
-│   ├── superstore_analysis.sql # Analysis queries
+│   ├── Table Creation.sql     # SQL schema (normalized tables)
+│   ├── Super Store Analysis.sql # Analysis queries
 │
 ├── notebook
-│   ├── data_creation.ipynb     # Data preprocessing & transformation
-│   ├── superstore_analysis.ipynb # EDA & insights
+│   ├── Data Creation.ipynb     # Data preprocessing & transformation
+│   ├── SuperStore Analysis.ipynb # EDA & insights
 ```
 
 ---
@@ -115,12 +115,15 @@ This structure improves query efficiency and reduces redundancy.
 
 ## 🔥 Final Conclusion
 
-> The analysis reveals that the business faces a **pricing and discount optimization problem rather than a demand issue**.
+The analysis reveals that the business faces a **pricing and discount optimization problem rather than a demand issue**.
 
 ---
 
 ## 📬 Contact
+Avinash Paliwal
 
-If you found this project useful or have feedback, feel free to connect!
+https://github.com/ExpertAvinash
+
+https://www.linkedin.com/in/avinash-paliwal-a710a1253/
 
 ---
