@@ -1,13 +1,13 @@
-# 📊 E-Commerce Sales Analysis Project
+# E-Commerce Sales Analysis Project
 
-## 🚀 Project Overview
+## Project Overview
 
 This project focuses on analyzing an E-commerce dataset to uncover key business insights related to sales, profitability, customer behavior, and regional performance.
 The analysis is performed using **Python (Pandas, Matplotlib)** and **SQL (Relational Database Design & Queries)**.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Analyze sales and profit performance across regions and categories
 * Identify loss-making products and root causes
@@ -17,7 +17,7 @@ The analysis is performed using **Python (Pandas, Matplotlib)** and **SQL (Relat
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 ├── data
@@ -35,7 +35,7 @@ The analysis is performed using **Python (Pandas, Matplotlib)** and **SQL (Relat
 
 ---
 
-## 🔄 Workflow (ETL Pipeline)
+## Workflow (ETL Pipeline)
 
 1. **Extract**
 
@@ -59,7 +59,7 @@ The analysis is performed using **Python (Pandas, Matplotlib)** and **SQL (Relat
 
 ---
 
-## 🗄️ Database Design
+## Database Design
 
 The dataset was normalized into the following tables:
 
@@ -73,18 +73,18 @@ This structure improves query efficiency and reduces redundancy.
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 
-* 🌍 **Central region** generates the highest sales but not the highest profitability
-* 📦 **Furniture category** is the primary loss-making segment
-* ❌ **Tables and Bookcases** contribute significantly to losses
-* 💸 High discounts (~45%) are strongly associated with losses
-* 👤 Top 10% customers contribute ~31% of total revenue
-* ⚠️ Losses are driven by pricing strategy rather than customer behavior
+* **Central region** generates the highest sales but not the highest profitability
+* **Furniture category** is the primary loss-making segment
+* **Tables and Bookcases** contribute significantly to losses
+* High discounts (~45%) are strongly associated with losses
+* Top 10% customers contribute ~31% of total revenue
+* Losses are driven by pricing strategy rather than customer behavior
 
 ---
 
-## 💼 Business Recommendations
+## Business Recommendations
 
 * Reduce excessive discounting in loss-making categories
 * Optimize pricing strategy for Furniture products
@@ -95,7 +95,7 @@ This structure improves query efficiency and reduces redundancy.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Python** → Pandas, Matplotlib
 * **SQL** → Data modeling, joins, aggregation
@@ -104,7 +104,7 @@ This structure improves query efficiency and reduces redundancy.
 
 ---
 
-## 📌 Key Learnings
+## Key Learnings
 
 * Data cleaning and preprocessing are critical for accurate analysis
 * Business insights are more important than just visualizations
@@ -113,7 +113,7 @@ This structure improves query efficiency and reduces redundancy.
 
 ---
 
-## 🔥 Final Conclusion
+## Final Conclusion
 
 The analysis reveals that the business faces a **pricing and discount optimization problem rather than a demand issue**.
 
