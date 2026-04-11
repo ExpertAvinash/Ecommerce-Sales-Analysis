@@ -88,7 +88,7 @@ GROUP BY c.segment;
 
 -- Monthly sales Analysis
 SELECT 
-    TO_CHAR(order_date, 'MM') AS month,
+    TO_CHAR(order_date, 'YYYY-MM') AS month,
     SUM(sales) AS total_sales
 FROM orders
 GROUP BY month
@@ -107,7 +107,7 @@ GROUP BY s.ship_mode;
 -- Profit Margin By Category
 SELECT 
 	p.category,
-	sum(o.sales)/sum(o.profit) as profit_margin
+	sum(o.profit)/sum(o.sales) as profit_margin
 FROM orders o
 JOIN products p
 ON o.product_id = p.product_id
