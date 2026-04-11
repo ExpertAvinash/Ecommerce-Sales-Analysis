@@ -25,7 +25,7 @@ select count(*) from location;
 create table products(
 	product_id varchar(80) Primary Key,
 	product_name varchar(200),
-	categeory varchar(50),
+	category varchar(50),
 	sub_category varchar(50)
 );
 
